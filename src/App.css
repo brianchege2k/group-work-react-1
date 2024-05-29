@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.ratings__item,
+.ratings__average {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.ratings__item h3,
+.ratings__average h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.ratings__item p {
+  font-size: 0.9em;
+}
+
+.ratings__item span,
+.ratings__average span {
+  font-size: 1.5em;
+  color: gold;
+}
