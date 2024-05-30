@@ -1,8 +1,12 @@
-// App.jsx
 import React from 'react';
 import RatingsList from './components/RatingsList';
 import './App.css';
+
+/**
+ * This is the main application component.
+ */
 const App = () => {
+  // Define the data for the ratings list.
   const ratingsData = [
     { name: 'Iqra', rate: 4, content: 'Great product!' },
     { name: 'Dennis', rate: 5, content: 'Excellent!' },
@@ -12,8 +16,11 @@ const App = () => {
     {name: 'Joel', rate: 3, content: 'Good, but needs improvement'}
   ];
 
+
   return (
+    // Wrap the application in a div.
     <div>
+      {/* Pass the ratings data to the RatingsList component. */}
       <RatingsList ratings={ratingsData} />
     </div>
   );
